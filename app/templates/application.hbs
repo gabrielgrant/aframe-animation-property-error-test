@@ -1,5 +1,9 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
-
+<a-scene>
+  <a-camera position="5 2 5" rotation="-10 45 0" spectator="true"></a-camera>
+  <a-box
+  color="#EF2D5E"
+  animation__first="property: height; dur: 10000; to: 10"
+  animation__second="property: width; dur: 10000; to: 10"
+></a-box>
+</a-scene>
 {{outlet}}
