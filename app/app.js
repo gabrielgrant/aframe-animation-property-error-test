@@ -3,6 +3,7 @@ import Resolver from './resolver';
 import loadInitializers from 'ember-load-initializers';
 import config from './config/environment';
 import 'npm:aframe';
+import 'npm:aframe-animation-component';
 
 const App = Application.extend({
   modulePrefix: config.modulePrefix,
